@@ -1,0 +1,16 @@
+
+.mic-loader .mic-icon {
+width: 40px;
+height: 60px;
+background: #007bff;
+border-radius: 50% 50% 20% 20%;
+margin: auto;
+animation: heartbeat 1s infinite ease-in-out;
+position: relative;
+}
+
+@keyframes heartbeat {
+0% { transform: scale(1); }
+50% { transform: scale(1.2); }
+100% { transform: scale(1); }
+}
